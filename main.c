@@ -24,8 +24,8 @@ int main()
     printf("multiplication is greater than addition");
     else 
     printf("addition is greater than multiplication");
-    if (mult==division)&&(division > 0)
-      printf("both the test numbers is equal to 1")
+    if ((mult==division)&&(division > 0))
+      printf("both the test numbers is equal to 1");
     
 
     return 0;
