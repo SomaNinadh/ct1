@@ -1,10 +1,4 @@
-/******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
 
 #include <stdio.h>
 
@@ -13,6 +7,7 @@ int main()
     int testnum1,testnum2;
     int sum,sub,mod;
     float mult,division;
+    char b = 'G';
     scanf("%d %d ",&testnum1,&testnum2);
     sum= testnum2+testnum1;
     sub= testnum2 - testnum1;
@@ -24,10 +19,13 @@ int main()
     printf("mod = %d",mod);
     printf("mult = %f",mult);
     printf("division = %f",division);
+    printf("Hello! I am a character. My value is %c and my size is %lu byte.\n",b, sizeof(char));
     if (mult > sum)
     printf("multiplication is greater than addition");
     else 
     printf("addition is greater than multiplication");
+    if (mult==divsion)&&(division > 0)
+      printf("both the test numbers is equal to 1")
     
 
     return 0;
